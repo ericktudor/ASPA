@@ -114,6 +114,9 @@ border-radius: 25px;
            <bold>true</bold>
           </font>
          </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
          <item>
           <property name="text">
            <string>Any</string>
@@ -242,7 +245,7 @@ border-radius: 25px;
          </item>
          <item>
           <property name="text">
-           <string>Paladi</string>
+           <string>Pallady</string>
           </property>
          </item>
          <item>

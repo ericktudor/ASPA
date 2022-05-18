@@ -134,6 +134,27 @@ set(PROJECT_SOURCES
         requestpage.h
         requestpage.cpp
         requestpage.ui
+        editpageanimals.h
+        editpageanimals.cpp
+        editpageanimals.ui
+        protocoleditanimal.h
+        protocoleditanimal.cpp
+        protocolreportevent.h
+        protocolreportevent.cpp
+        irequest.h
+        irequest.cpp
+        icampaigns.h
+        icampaigns.cpp
+        ianimal.h
+        ianimal.cpp
+        iexception.h
+        iexception.cpp
+        exception.h
+        exception.cpp
+        adminanimalsearch.h
+        adminanimalsearch.cpp
+        adminanimalsearch.ui
+
 
 
 

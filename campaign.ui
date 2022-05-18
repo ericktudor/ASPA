@@ -31,7 +31,7 @@
     <rect>
      <x>150</x>
      <y>20</y>
-     <width>731</width>
+     <width>721</width>
      <height>481</height>
     </rect>
    </property>
@@ -54,6 +54,11 @@ border-radius:20px;
         <pointsize>12</pointsize>
         <bold>true</bold>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#groupBox_2{
+border:0px;
+}</string>
       </property>
       <property name="title">
        <string/>
@@ -201,12 +206,24 @@ border-radius:20px;
        </item>
        <item row="6" column="0">
         <widget class="QPushButton" name="pushButton">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="font">
           <font>
            <family>Segoe UI Black</family>
            <pointsize>14</pointsize>
            <bold>true</bold>
           </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">#pushButton{
+	background-color: rgb(255, 255, 255);
+border-radius:10px;
+}</string>
          </property>
          <property name="text">
           <string>Back</string>
@@ -222,6 +239,12 @@ border-radius:20px;
            <bold>true</bold>
           </font>
          </property>
+         <property name="styleSheet">
+          <string notr="true">#pushButton_2{
+	background-color: rgb(255, 255, 255);
+border-radius:10px;
+}</string>
+         </property>
          <property name="text">
           <string>Select</string>
          </property>
@@ -236,8 +259,8 @@ border-radius:20px;
           </sizepolicy>
          </property>
          <property name="styleSheet">
-          <string notr="true">#groupBox_2{
-
+          <string notr="true">#groupBox_3{
+border:0px;
 }</string>
          </property>
          <property name="title">

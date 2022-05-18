@@ -32,6 +32,10 @@ AnimalProfile::AnimalProfile(QString data,QWidget *parent) :
         ui->VarstaRaspuns->setText(s);
 
     }
+    if(ui->SpecieRaspuns->text()=="Caine"){ui->groupBox_2->setStyleSheet("#groupBox_2{border-image: url(:/img/dog-logo.png);border-radius:80px;}");}
+    else if(ui->SpecieRaspuns->text()=="Pisica"){ui->groupBox_2->setStyleSheet("#groupBox_2{border-image: url(:/img/cat-logo.webp);border-radius:80px;}");}
+    else if(ui->SpecieRaspuns->text()=="Hamster"){ui->groupBox_2->setStyleSheet("#groupBox_2{border-image: url(:/img/hamster-logo.jpg);border-radius:80px;}");}
+    else if(ui->SpecieRaspuns->text()=="Papagal"){ui->groupBox_2->setStyleSheet("#groupBox_2{border-image: url(:/img/parrot-logo.jpg);border-radius:80px;}");}
 
 
 }
@@ -46,6 +50,7 @@ void AnimalProfile::on_pushButton_clicked()
     AdoptFormular adpt;
     adpt.setModal(true);
     adpt.exec();
+    close();
 }
 
 

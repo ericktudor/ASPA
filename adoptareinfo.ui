@@ -25,8 +25,8 @@
     <rect>
      <x>40</x>
      <y>20</y>
-     <width>881</width>
-     <height>541</height>
+     <width>941</width>
+     <height>521</height>
     </rect>
    </property>
    <property name="html">
@@ -98,6 +98,38 @@ p, li { white-space: pre-wrap; }
 &lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;Un echipaj ASPA va duce adoptatorului câinele acasă gratuit (în București) împreună cu formularele de adopție (semnate de reprez. ASPA din baze), consimțământul GDPR și carnetul de sănătate al câinelui.&lt;/span&gt;&lt;/li&gt;
 &lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;Actele sunt semnate de adoptator iar echipajul ASPA le va duce ulterior în baza de unde a fost adoptat câinele pentru a fi atașate la dosar.&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot; font-size:15px; font-weight:700; font-style:italic;&quot;&gt;Adopțiile ONLINE se vor derula în limita resurselor disponibile (umane și financiare).&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f2f2f2;&quot;&gt;&lt;span style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>419</x>
+     <y>550</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton{
+	background-color: rgb(255, 255, 255);
+border-radius:10px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
    </property>
   </widget>
  </widget>

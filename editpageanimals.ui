@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EditPageAnimals</class>
+ <widget class="QDialog" name="EditPageAnimals">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1022</width>
+    <height>635</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#EditPageAnimals{
+	border-image: url(:/img/Gears1280.png);
+
+}</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>100</y>
+     <width>711</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox{
+
+border:0px;
+border-radius:20px;
+	background-color: rgb(181, 181, 181);
+
+
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>30</y>
+      <width>311</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#groupBox_2{
+
+	border-color: rgb(141, 141, 141);
+    border-radius:20px;
+}
+</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Animal with ID:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="ID">
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <pointsize>14</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>170</y>
+      <width>631</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#groupBox_3{
+
+	border-color: rgb(141, 141, 141);
+    border-radius:20px;
+}
+</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Parameter:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <pointsize>12</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>Varsta</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sex</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Locatie</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Specie</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Talie</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <pointsize>10</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#pushButton_2{
+	background-color: rgb(255, 255, 255);
+border-radius:10px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Modify</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>330</y>
+      <width>631</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#groupBox_4{
+
+	border-color: rgb(141, 141, 141);
+    border-radius:20px;
+}
+</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <pointsize>10</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#pushButton_3{
+	background-color: rgb(255, 255, 255);
+border-radius:10px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <pointsize>10</pointsize>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#pushButton_4{
+	background-color: rgb(255, 255, 255);
+border-radius:10px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Delete Animal</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

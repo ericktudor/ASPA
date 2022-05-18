@@ -21,9 +21,9 @@
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>190</x>
+     <x>160</x>
      <y>70</y>
-     <width>611</width>
+     <width>701</width>
      <height>411</height>
     </rect>
    </property>
@@ -39,6 +39,16 @@ border-radius:30px;
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
      <widget class="QGroupBox" name="groupBox_2">
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#groupBox_2{border-image: url(:/img/cat-logo.webp);border-radius:80px;}
+</string>
+      </property>
       <property name="title">
        <string/>
       </property>
@@ -246,6 +256,12 @@ border-radius:10px;
        </item>
        <item row="6" column="0">
         <widget class="QPushButton" name="pushButton_2">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>0</height>
+          </size>
+         </property>
          <property name="font">
           <font>
            <family>Segoe UI Black</family>

@@ -2,8 +2,9 @@
 #define CAMPAIGNS_H
 
 #include <QString>
+#include "icampaigns.h"
 
-class Campaigns
+class Campaigns:public ICampaigns
 {
 public:
     Campaigns(QString data,QString denumire,QString locatie);

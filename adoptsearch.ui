@@ -21,11 +21,16 @@
   <widget class="QGroupBox" name="groupBox">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>60</y>
-     <width>821</width>
-     <height>461</height>
+     <x>80</x>
+     <y>40</y>
+     <width>841</width>
+     <height>511</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox{
+border:0px;
+}</string>
    </property>
    <property name="title">
     <string/>
@@ -50,6 +55,25 @@
     </item>
     <item>
      <widget class="QPushButton" name="pushButton">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Black</family>
+        <pointsize>10</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton{
+	background-color: rgb(255, 255, 255);
+border-radius:10px;
+}</string>
+      </property>
       <property name="text">
        <string>Select</string>
       </property>
