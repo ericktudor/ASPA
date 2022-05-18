@@ -6,11 +6,11 @@ ProtocolAddCampaign::ProtocolAddCampaign()
     this->delimiter="/";
 }
 
-void ProtocolAddCampaign::sendMessage(QString zi, QString month, QString year, QString Denumire, QString Locatie)
+void ProtocolAddCampaign::sendMessage(QString day, QString month, QString year, QString Denumire, QString Locatie)
 {
     this->message="39";
     this->message=message.append(this->delimiter);
-    this->message=message.append(zi);
+    this->message=message.append(day);
     this->message=message.append(this->delimiter);
     this->message=message.append(month);
     this->message=message.append(this->delimiter);

@@ -15,6 +15,9 @@ public:
     explicit RequestsList(QWidget *parent = nullptr);
     ~RequestsList();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::RequestsList *ui;
 };

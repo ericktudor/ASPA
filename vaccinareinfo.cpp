@@ -13,3 +13,9 @@ VaccinareInfo::~VaccinareInfo()
 {
     delete ui;
 }
+
+void VaccinareInfo::on_pushButton_clicked()
+{
+    close();
+}
+

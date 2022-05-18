@@ -4,11 +4,12 @@ ProtocolFilterAnimals::ProtocolFilterAnimals()
 {
 this->delimiter="/";
 this->message="";
+this->code="11";
 }
 
 void ProtocolFilterAnimals::sendMessage(QString age, QString sex, QString location, QString size, QString species)
 {
-    this->message="11";
+    this->message=code;
     this->message=message.append(this->delimiter);
     this->message=message.append(age);
     this->message=message.append(this->delimiter);
@@ -38,4 +39,9 @@ void ProtocolFilterAnimals::manageMessageRecived()
         System::getInstance().addAnimal(temp);
     }
 
+}
+
+void ProtocolFilterAnimals::changeCode()
+{
+this->code=QString::number(34);
 }

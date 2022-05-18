@@ -47,6 +47,11 @@ QString Request::getId_User()
     return this->Id_User;
 }
 
+QString Request::getId_Animal()
+{
+return this->Id_Animal;
+}
+
 bool Request::getR1()
 {
     return this->R1;

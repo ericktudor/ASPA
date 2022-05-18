@@ -21,8 +21,11 @@ void ProtocolCampaigns::manageMessageRecived()
     data=rcv.split("/");
     int i;
     int x=data[0].toInt();
-    for(i=0;i<x;i=i+3){
-        Campaigns* temp=new Campaigns(data[1+i],data[2+i],data[3+i]);
+    qDebug()<<x<<"Number of Campaigns";
+    for(i=0;i<x;i=i+1){
+        Campaigns* temp=new Campaigns(data[1+i*3],data[2+i*3],data[3+i*3]);
+
+         qDebug()<<data[1+i*3]<<data[2+i*3]<<data[3+i*3]<<" Campaigns data";
         System::getInstance().addCampaign(temp);
     }
 

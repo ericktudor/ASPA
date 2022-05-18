@@ -15,6 +15,9 @@ public:
     explicit AdoptareInfo(QWidget *parent = nullptr);
     ~AdoptareInfo();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::AdoptareInfo *ui;
 };

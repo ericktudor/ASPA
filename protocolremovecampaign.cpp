@@ -2,7 +2,8 @@
 
 ProtocolRemoveCampaign::ProtocolRemoveCampaign()
 {
-
+    this->message="";
+    this->delimiter="/";
 }
 
 void ProtocolRemoveCampaign::sendMessage(QString id)

@@ -15,10 +15,10 @@ void ProtocolRequests::manageMessageRecived()
     data=rcv.split("/");
     int i;
     int x=data[0].toInt();
-    for(i=0;i<x;i=i+13){
-        Request* temp=new Request(data[1+i],data[2+i],data[3+i],data[4+i],data[5+i],data[6+i],data[7+i],data[8+i].toInt(),data[9+i].toInt(),data[10+i].toInt(),data[11+i].toInt(),data[12+i].toInt(),data[13+1].toInt());
+    for(i=0;i<x;i=i+1){
+        Request* temp=new Request(data[1+i*13],data[2+i*13],data[3+i*13],data[4+i*13],data[5+i*13],data[6+i*13],data[7+i*13],data[8+i*13].toInt(),data[9+i*13].toInt(),data[10+i*13].toInt(),data[11+i*13].toInt(),data[12+i*13].toInt(),data[13+i*13].toInt());
         System::getInstance().addRequest(temp);
-        qDebug()<<data[1+i]<<data[2+i]<<data[3+i]<<data[4+i]<<data[5+i]<<data[6+i]<<data[7+i]<<data[8+i].toInt()<<data[9+i].toInt()<<data[10+i].toInt()<<data[11+i].toInt()<<data[12+i].toInt()<<data[13+1].toInt();
+        qDebug()<<data[1+i*13]<<data[2+i*13]<<data[3+i*13]<<data[4+i*13]<<data[5+i*13]<<data[6+i*13]<<data[7+i*13]<<data[8+i*13].toInt()<<data[9+i*13].toInt()<<data[10+i*13].toInt()<<data[11+i*13].toInt()<<data[12+i*13].toInt()<<data[13+i*13].toInt();
     }
 }
 

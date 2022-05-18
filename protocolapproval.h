@@ -6,8 +6,8 @@
 class ProtocolApproval : public Protocol
 {
 public:
-    ProtocolApproval(QString approval);
-    void sendMessage(QString id_request);
+    ProtocolApproval();
+    void sendMessage(QString id_request,QString approval);
     void manageMessageRecived(){};
 };
 

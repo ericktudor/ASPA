@@ -19,9 +19,6 @@ void LoginUser::on_pushButton_clicked()
 {
     QString user=ui->lineEdit->text();
     QString password=ui->lineEdit_2->text();
-    //ask the server!!!
-    //creez un user ,prin el trimit credentialele si functia aia bool imi zice daca m am logat sau nu
-    //tu trimiti catre server prin clasa user ca sa zic asa
     if((user!="")&& (password!="")){
         ProtocolLogin l;
         l.sendMessage(user,password);

@@ -15,6 +15,11 @@ public:
     explicit AddAnimal(QWidget *parent = nullptr);
     ~AddAnimal();
 
+private slots:
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
 private:
     Ui::AddAnimal *ui;
 };

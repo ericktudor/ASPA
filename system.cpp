@@ -51,6 +51,16 @@ void System::addCampaign(Campaigns* camp)
     myCampaigns.push_back(camp);
 }
 
+int System::getVectCampaignSize()
+{
+    return this->myCampaigns.size();
+}
+
+Campaigns *System::getCampaign(int index)
+{
+    return this->myCampaigns[index];
+}
+
 void System::addAnimal(Animal *anm)
 {
     this->myAnimals.push_back(anm);
@@ -72,10 +82,35 @@ void System::emptySearchAnimals()
     myAnimals.clear();
 }
 
+void System::emptyCampaigns()
+{
+    myCampaigns.clear();
+}
+
+void System::emptyClient()
+{
+    delete client;
+}
+
+void System::emptyRequests()
+{
+    myRequests.clear();
+}
+
 void System::setLogFile(QString info)
 {
     this->logFile=info;
 
+}
+
+QString System::getUserId()
+{
+return this->client->getId();
+}
+
+void System::setUserId(QString id)
+{
+this->client->setId(id);
 }
 
 QString System::getLogFile()

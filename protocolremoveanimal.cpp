@@ -2,7 +2,8 @@
 
 ProtocolRemoveAnimal::ProtocolRemoveAnimal()
 {
-
+    this->message="";
+    this->delimiter="/";
 }
 
 void ProtocolRemoveAnimal::sendMessage(QString id)

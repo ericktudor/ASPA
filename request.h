@@ -1,8 +1,9 @@
 #ifndef REQUEST_H
 #define REQUEST_H
 #include <QString>
+#include "irequest.h"
 
-class Request
+class Request:public IRequest
 {
 public:
     Request(QString Id_Req,QString Name,QString Surname,QString Telephone,QString Email,QString Id_User,QString Id_Animal,bool R1,bool R2,bool R3,bool R4,bool R5,bool R6);

@@ -1,6 +1,8 @@
 #include "requestslist.h"
 #include "ui_requestslist.h"
 #include "system.h"
+#include "requestpage.h"
+
 
 RequestsList::RequestsList(QWidget *parent) :
     QDialog(parent),
@@ -20,5 +22,16 @@ RequestsList::RequestsList(QWidget *parent) :
 
 RequestsList::~RequestsList()
 {
+    System::getInstance().emptyRequests();
     delete ui;
 }
+
+void RequestsList::on_pushButton_clicked()
+{
+    QStringList temp=ui->listWidget->currentItem()->text().split(" ");
+    RequestPage prof(temp[0]);
+    prof.setModal(true);
+    prof.exec();
+    close();
+}
+

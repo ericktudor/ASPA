@@ -7,7 +7,7 @@ class ProtocolAddCampaign : public Protocol
 {
 public:
     ProtocolAddCampaign();
-    void sendMessage(QString zi,QString month,QString year,QString Denumire,QString Locatie);
+    void sendMessage(QString day,QString month,QString year,QString Denumire,QString Locatie);
     void manageMessageRecived(){};
 };
 

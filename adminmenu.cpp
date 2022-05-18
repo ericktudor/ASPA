@@ -6,6 +6,8 @@
 #include "logfile.h"
 #include "protocollog.h"
 #include "protocolrequests.h"
+#include "requestslist.h"
+#include "protocolremovecampaign.h"
 
 AdminMenu::AdminMenu(QWidget *parent) :
     QDialog(parent),
@@ -59,5 +61,29 @@ void AdminMenu::on_pushButton_2_clicked()
     ProtocolRequests req;
     req.sendMessage();
     req.manageMessageRecived();
+    RequestsList rl;
+    rl.setModal(true);
+    rl.exec();
+}
+
+
+
+void AdminMenu::on_pushButton_7_clicked()
+{
+    ProtocolRemoveCampaign prg;
+    prg.sendMessage(ui->lineEdit->text());
+    if(prg.receivePermision()){
+QMessageBox::warning(this,"Done!","Done!");
+
+    }
+    else{
+        QMessageBox::warning(this,"Not Done!","Not Done!");
+    }
+}
+
+
+void AdminMenu::on_pushButton_6_clicked()
+{
+
 }
 

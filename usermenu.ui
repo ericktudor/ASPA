@@ -65,6 +65,12 @@ border-radius:30px;
         <bold>true</bold>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton{
+	background-color: rgb(255, 255, 255);
+border-radius:30px;
+}</string>
+      </property>
       <property name="text">
        <string>ADOPT</string>
       </property>
@@ -84,6 +90,12 @@ border-radius:30px;
         <pointsize>10</pointsize>
         <bold>true</bold>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_3{
+	background-color: rgb(255, 255, 255);
+border-radius:30px;
+}</string>
       </property>
       <property name="text">
        <string>Infromations</string>
@@ -105,6 +117,12 @@ border-radius:30px;
         <bold>true</bold>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_4{
+	background-color: rgb(255, 255, 255);
+border-radius:30px;
+}</string>
+      </property>
       <property name="text">
        <string>Report Event</string>
       </property>
@@ -124,6 +142,12 @@ border-radius:30px;
         <pointsize>10</pointsize>
         <bold>true</bold>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_2{
+	background-color: rgb(255, 255, 255);
+border-radius:30px;
+}</string>
       </property>
       <property name="text">
        <string>Campaign</string>
@@ -211,7 +235,7 @@ border-radius:60px;</string>
      <x>60</x>
      <y>140</y>
      <width>111</width>
-     <height>29</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
@@ -222,8 +246,8 @@ border-radius:60px;</string>
    </property>
    <property name="styleSheet">
     <string notr="true">#pushButton_5{
-
-
+	background-color: rgb(255, 255, 255);
+border-radius:10px;
 }</string>
    </property>
    <property name="text">

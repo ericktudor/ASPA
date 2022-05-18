@@ -13,3 +13,9 @@ AdoptareInfo::~AdoptareInfo()
 {
     delete ui;
 }
+
+void AdoptareInfo::on_pushButton_clicked()
+{
+    close();
+}
+

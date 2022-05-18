@@ -13,3 +13,9 @@ SterilizareInfo::~SterilizareInfo()
 {
     delete ui;
 }
+
+void SterilizareInfo::on_pushButton_clicked()
+{
+    close();
+}
+

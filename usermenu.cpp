@@ -61,6 +61,7 @@ c.exec();
 
 void UserMenu::on_pushButton_5_clicked()
 {
+    System::getInstance().emptyClient();
     close();
 }
 

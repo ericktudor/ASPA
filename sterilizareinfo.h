@@ -15,6 +15,9 @@ public:
     explicit SterilizareInfo(QWidget *parent = nullptr);
     ~SterilizareInfo();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::SterilizareInfo *ui;
 };

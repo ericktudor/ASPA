@@ -14,8 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">#MainWindow
-{
+   <string notr="true">#MainWindow{
 	border-image: url(:/img/181c142fbc734f36369a1ef8943712b1.jpg);
 }</string>
   </property>

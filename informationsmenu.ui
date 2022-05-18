@@ -53,11 +53,9 @@ border-radius:20px;
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">pushButton{
-
-	background-color: rgb(188, 142, 85);
-	border-color: rgb(255, 182, 133);
-
+       <string notr="true">#pushButton_4{
+	background-color: rgb(255, 255, 255);
+border-radius:30px;
 }</string>
       </property>
       <property name="text">
@@ -80,6 +78,12 @@ border-radius:20px;
         <bold>true</bold>
        </font>
       </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_2{
+	background-color: rgb(255, 255, 255);
+border-radius:30px;
+}</string>
+      </property>
       <property name="text">
        <string>Sterilizare</string>
       </property>
@@ -99,6 +103,12 @@ border-radius:20px;
         <pointsize>12</pointsize>
         <bold>true</bold>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_3{
+	background-color: rgb(255, 255, 255);
+border-radius:30px;
+}</string>
       </property>
       <property name="text">
        <string>Procedura de Adoptie</string>
@@ -121,8 +131,9 @@ border-radius:20px;
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">pushButton_4{
-border-radius:40px;
+       <string notr="true">#pushButton{
+	background-color: rgb(255, 255, 255);
+border-radius:30px;
 }</string>
       </property>
       <property name="text">

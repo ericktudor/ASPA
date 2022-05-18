@@ -30,7 +30,7 @@ void AddCampaign::on_pushButton_clicked()
     name=ui->name->text();
     ProtocolAddCampaign pdc;
     pdc.sendMessage(day,month,year,name,location);
-    if(pdc.receivePermision()){QMessageBox::information(this,"Done!","Done!");}
+    if(pdc.receivePermision()){QMessageBox::information(this,"Done!","Done!");close();}
     else{QMessageBox::warning(this,"Fail!","Fail!");}
 
 
