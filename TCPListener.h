@@ -3,15 +3,39 @@
 #include <iostream>
 #include <string>
 #include <WS2tcpip.h>				// header file for winsock functions
-#include "DB.h"
+
+#include "Protocoale.h"
 #include "ProtocolLogClient.h"
 #include "ProtocolLogAdmin.h"
 #include "ProtocolRegister.h"
 #include "ProtocolSearchAnimal.h"
 #include "ProtocolFormAdoption.h"
 #include "ProtocolSendCampaign.h"
+#include "ProtocolReportEvent.h"
+#include "ProtocolLogFile.h"
+#include "ProtocolADRequests.h"
+#include "ProtocolShowAnimals.h"
+#include "ProtocolShowAnimalsID.h"
+#include "ProtocolChangeParameters.h"
+#include "ProtocolAddAnimal.h"
+#include "ProtocolAddCampaign.h"
+#include "ProtocolDeleteAnimal.h"
+#include "ProtocolDeleteCampaign.h"
+#include "ProtocolShowRequests.h"
+#include "LOG.h"
 
 #pragma comment(lib, "ws2_32.lib")	// winsock library file
+////
+//#include "DB.h"
+//#include <stddef.h>
+//#include <sqlext.h>
+//#include <sqltypes.h>
+//#include <sql.h>
+//#pragma comment(lib, "odbc32.lib")
+//
+//#define SQL_RESULT_LEN 240
+//#define SQL_RETURN_CODE_LEN 2400
+////
 
 #define MAX_BUFFER_SIZE (49152)
 

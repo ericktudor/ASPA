@@ -8,10 +8,10 @@
 
 using namespace std;
 
-class ProtocolSendCampaign
+class ProtocolSendCampaign : public Protocoale
 {
 private:
-	string msg;
+	//string msg;
 public:
 	ProtocolSendCampaign() {}
 	string handleMessage(string msg);

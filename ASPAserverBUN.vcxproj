@@ -119,6 +119,7 @@
     <ClInclude Include="Client.h" />
     <ClInclude Include="DB.h" />
     <ClInclude Include="IProtocol.h" />
+    <ClInclude Include="LOG.h" />
     <ClInclude Include="Protocoale.h" />
     <ClInclude Include="ProtocolAddAnimal.h" />
     <ClInclude Include="ProtocolAddCampaign.h" />
@@ -146,6 +147,7 @@
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="DB.cpp" />
     <ClCompile Include="IProtocol.cpp" />
+    <ClCompile Include="LOG.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Protocoale.cpp" />
     <ClCompile Include="ProtocolAddAnimal.cpp" />
@@ -167,6 +169,9 @@
     <ClCompile Include="ProtocolShowRequests.cpp" />
     <ClCompile Include="TCPListener.cpp" />
     <ClCompile Include="Utilizator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Log.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

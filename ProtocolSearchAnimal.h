@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class ProtocolSearchAnimal
+class ProtocolSearchAnimal : public Protocoale
 {
 private:
 	string age;
@@ -16,7 +16,7 @@ private:
 	string location;
 	string size;
 	string species;
-	string msg;
+	//string msg;
 public:
 	ProtocolSearchAnimal() {}
 	string handleMessage(string msg);

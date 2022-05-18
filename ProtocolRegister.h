@@ -19,7 +19,7 @@ private:
 	string password;
 	string mail;
 	string tel;
-	string msg;
+	//string msg;
 public:
 	ProtocolRegister() {}
 	string handleMessage(string msg);

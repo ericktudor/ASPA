@@ -8,12 +8,12 @@
 
 
 using namespace std;
-class ProtocolLogAdmin
+class ProtocolLogAdmin : public Protocoale
 {
 private:
 	string username;
 	string password;
-	string msg;
+	//string msg;
 public:
 	ProtocolLogAdmin() {}
 	string handleMessage(string msg);

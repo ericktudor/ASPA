@@ -8,17 +8,18 @@
 
 using namespace std;
 
-class ProtocolFormAdoption
+class ProtocolFormAdoption : public Protocoale
 {
 private:
 	string ID_user;
+	string username;
 	string R1;
 	string R2;
 	string R3;
 	string R4;
 	string R5;
 	string R6;
-	string msg;
+	//string msg;
 public:
 	ProtocolFormAdoption() {}
 	string handleMessage(string msg);

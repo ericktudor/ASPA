@@ -13,7 +13,7 @@ class ProtocolLogClient : public Protocoale
 private:
 	string username;
 	string password;
-	string msg;
+	//string msg;
 public:
 	ProtocolLogClient() {}
 	string handleMessage(string msg);
