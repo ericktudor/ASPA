@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SterilizareInfo</class>
+ <widget class="QDialog" name="SterilizareInfo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#SterilizareInfo{
+
+	border-image: url(:/img/istockphoto-1163775073-612x612.jpg);
+
+}</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>941</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f2f2f2;&quot;&gt;&lt;span style=&quot; font-family:'Merriweather'; font-size:15px; font-weight:700; color:#444444;&quot;&gt;Metode de sterilizare:&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;femelă – ovariohisterectomie;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;mascul – orhidectomie.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f2f2f2;&quot;&gt;&lt;span style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot;&gt;Procedura de sterilizare este o intervenție chirurgicală sigură și benefică pentru câinele dumneavoastră. Intervenția se efectuează numai sub anestezie generală, astfel câinele nu simte nici o durere fizică și nu va fi afectat psihic.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f2f2f2;&quot;&gt;&lt;span style=&quot; font-family:'Merriweather'; font-size:15px; font-weight:700; color:#444444;&quot;&gt;Beneficiile sterilizării sunt:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f2f2f2;&quot;&gt;&lt;span style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot;&gt;1)    &lt;/span&gt;&lt;span style=&quot; font-family:'Merriweather'; font-size:15px; text-decoration: underline; text-decoration-color:#000000; color:#444444;&quot;&gt;Menținerea stării de sănătate a câinelui și creșterea speranței de viață&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;la femelă:&lt;/span&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;&quot;&gt;&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;reduce riscul apariției diferitelor tipuri de cancer (ex: tumori mamare);&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;elimină apariția tumorilor ovariene;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;elimină apariția infecțiilor uterine (ex: piometru);&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;elimină disconfortul creat de gestațiile și lactațiile false;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;elimină complicațiile survenite în cazul gestației/fătării neasistate (ex: prolaps);&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;elimină problemele asociate dezechilibrului hormonal (ex: pierderea blănii);&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;elimină riscurile, problemele de comportament și igienă asociate perioadelor de călduri.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;la mascul:&lt;/span&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 3;&quot;&gt;&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;elimină apariția cancerului testicular;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;previne apariția afecțiunilor prostatei;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;reduce riscul apariției tumorilor perianale;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;reduce semnificativ apariția herniei;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;elimină manifestarea comportamentului sexual.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f2f2f2;&quot;&gt;&lt;span style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot;&gt;2)    &lt;/span&gt;&lt;span style=&quot; font-family:'Merriweather'; font-size:15px; text-decoration: underline; text-decoration-color:#000000; color:#444444;&quot;&gt;Confortul și liniștea deținătorului&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;reduce semnificativ costul îngrijirii câinelui d.p.d.v. medical;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;elimină riscurile, problemele de comportament și igienă asociate perioadelor de călduri;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;elimină problemele asociate dezechilibrului hormonal (ex: pierderea blănii);&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;elimină situațiile neplăcute apărute în urma montelor accidentale.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#f2f2f2;&quot;&gt;&lt;span style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot;&gt;3)    &lt;/span&gt;&lt;span style=&quot; font-family:'Merriweather'; font-size:15px; text-decoration: underline; text-decoration-color:#000000; color:#444444;&quot;&gt;Pentru comunitate&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;prevenirea repopulării Municipiului București cu animale fără stăpân;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;identificarea rapidă a reproducătorilor/comercianților neautorizați;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'Merriweather'; font-size:15px; color:#444444; background-color:#f2f2f2;&quot; style=&quot; margin-top:0px; margin-bottom:10px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:15px;&quot;&gt;reducerea costurilor municipalității privind gestionarea populației canine.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>550</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>80</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI Black</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButton{
+	background-color: rgb(255, 255, 255);
+border-radius:10px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
