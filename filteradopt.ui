@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FilterAdopt</class>
+ <widget class="QDialog" name="FilterAdopt">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#FilterAdopt
+{
+border-image: url(:/img/istockphoto-1163775073-612x612.jpg);
+}</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>90</y>
+     <width>541</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#groupBox_2{
+
+	background-color: rgb(255, 246, 179);
+border-radius: 25px;
+}</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>70</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Black</family>
+        <pointsize>10</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_2{
+	
+	background-color: rgb(255, 255, 255);
+border-radius: 25px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Search</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="font">
+       <font>
+        <family>Segoe UI Black</family>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#groupBox{
+
+	border-color: rgb(255, 250, 178);
+	background-color: rgb(255, 236, 165);
+    border-radius:20px;
+}
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>Segoe UI Black</family>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Sex</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="comboBox">
+         <property name="font">
+          <font>
+           <family>Segoe UI Black</family>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>Any</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mascul</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Femela</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <family>Segoe UI Black</family>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Varsta</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="comboBox_2">
+         <property name="font">
+          <font>
+           <family>Segoe UI Black</family>
+           <bold>true</bold>
+          </font>
+         </property>
+         <item>
+          <property name="text">
+           <string>Any</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>&lt;1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>&lt;2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>&lt;3</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>&lt;4</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>&lt;5</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>&lt;6</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>&lt;7</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>&lt;8</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>&lt;9</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>&lt;10</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>&gt;10</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <family>Segoe UI Black</family>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Locatie</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QComboBox" name="comboBox_3">
+         <property name="font">
+          <font>
+           <family>Segoe UI Black</family>
+           <bold>true</bold>
+          </font>
+         </property>
+         <item>
+          <property name="text">
+           <string>Any</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Pallady</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Bragadiru</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mihailesti</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="font">
+          <font>
+           <family>Segoe UI Black</family>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Talie</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QComboBox" name="comboBox_4">
+         <property name="font">
+          <font>
+           <family>Segoe UI Black</family>
+           <bold>true</bold>
+          </font>
+         </property>
+         <item>
+          <property name="text">
+           <string>Any</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mica</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Medie</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mare</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="font">
+          <font>
+           <family>Segoe UI Black</family>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Specie</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QComboBox" name="comboBox_5">
+         <property name="font">
+          <font>
+           <family>Segoe UI Black</family>
+           <bold>true</bold>
+          </font>
+         </property>
+         <item>
+          <property name="text">
+           <string>Any</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Caine</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Pisica</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Papagal</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hamster</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

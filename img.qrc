@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/animal-shelter-concept-lonely-animals-cages-wait-adoption-rehabilitation-center-stray-pets-homeless-cartoon-flat-180302137.jpg</file>
+        <file>img/istockphoto-1140204204-612x612.jpg</file>
+        <file>img/istockphoto-1163775073-612x612.jpg</file>
+        <file>img/Logo-ASPA.png</file>
+        <file>img/Gears1280.png</file>
+        <file>img/181c142fbc734f36369a1ef8943712b1.jpg</file>
+        <file>img/account.png</file>
+        <file>img/kisspng-dog-breed-miniature-pinscher-manchester-terrier-sy-5b149f555a09b8.4317550115280781653688.jpg</file>
+        <file>img/hamster-logo.jpg</file>
+        <file>img/cat-logo.webp</file>
+        <file>img/dog-logo.png</file>
+        <file>img/parrot-logo.jpg</file>
+    </qresource>
+</RCC>
